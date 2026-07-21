@@ -5,8 +5,9 @@
 **AI-native development · platform engineering · cloud architecture**
 
 [![Current focus](https://img.shields.io/badge/current_focus-Claude_OKF_repo_kit-2563EB?style=flat-square)](https://lilabrooks.github.io/)
+[![Claude Code](https://img.shields.io/badge/Claude_Code-workflows-CC785C?style=flat-square&logo=anthropic&logoColor=white)](https://claude.com/product/claude-code)
+[![Codex](https://img.shields.io/badge/Codex-agentic_engineering-111827?style=flat-square&logo=openai&logoColor=white)](https://openai.com/codex)
 [![Dogfooding](https://img.shields.io/badge/dogfooding-spec_driven_repos-64748B?style=flat-square)](https://lilabrooks.github.io/dogfood/)
-[![GitHub](https://img.shields.io/badge/GitHub-lilabrooks-181717?style=flat-square&logo=github)](https://github.com/lilabrooks)
 
 </div>
 
@@ -44,6 +45,7 @@ Dogfood repos:
 - [repo-pulse](https://github.com/lilabrooks/repo-pulse)
 - [skywatch](https://github.com/lilabrooks/skywatch)
 - [aws-public-change-feed](https://github.com/lilabrooks/aws-public-change-feed)
+- More coming as the kit gets tested against new repo shapes.
 
 ---
 
