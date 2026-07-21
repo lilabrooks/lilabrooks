@@ -38,12 +38,12 @@ I'm interested in tools that make software easier to reason about: agents with s
 
 [**Claude OKF repo kit**](https://lilabrooks.github.io/) is my current focus: a repo-native workflow for goal-directed, specification-governed development with Claude Code. It keeps goals, milestones, specs, ADRs, verification, and progress versioned and reviewable in Git.
 
-| Dogfood repo | What it proves |
-| --- | --- |
-| [spec-agent-cli](https://github.com/lilabrooks/spec-agent-cli) | Spec-first CLI workflows and brownfield adoption |
-| [repo-pulse](https://github.com/lilabrooks/repo-pulse) | Repo health checks, docs sync, and progress signals |
-| [skywatch](https://github.com/lilabrooks/skywatch) | Operational alerting patterns in a lived repo |
-| [aws-public-change-feed](https://github.com/lilabrooks/aws-public-change-feed) | Public cloud change tracking with repeatable docs and verification |
+Dogfood repos:
+
+- [spec-agent-cli](https://github.com/lilabrooks/spec-agent-cli)
+- [repo-pulse](https://github.com/lilabrooks/repo-pulse)
+- [skywatch](https://github.com/lilabrooks/skywatch)
+- [aws-public-change-feed](https://github.com/lilabrooks/aws-public-change-feed)
 
 ---
 
