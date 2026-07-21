@@ -31,7 +31,7 @@ current_focus:
     - dogfood repos that test the kit against real projects
 ```
 
-I'm interested in tools that make software easier to reason about: agents with specs, cloud systems with clear ownership, and repos that carry more of the thinking behind the code.
+I'm interested in tools that make software easier to reason about: agents with specs, AI workflows that make intent explicit, and repos that carry more of the thinking behind the code.
 
 ---
 
