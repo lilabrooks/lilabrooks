@@ -29,6 +29,7 @@ current_focus:
     - repo-native goals, milestones, specs, and ADRs
     - Claude Code workflows that keep decisions reviewable in Git
     - dogfood repos that test the kit against real projects
+    - reusable Agent Skills for Codex and Claude Code
 ```
 
 I'm interested in tools that make software easier to reason about: agents with specs, AI workflows that make intent explicit, and repos that carry more of the thinking behind the code.
@@ -38,6 +39,11 @@ I'm interested in tools that make software easier to reason about: agents with s
 ## Current focus
 
 [**Claude OKF repo kit**](https://lilabrooks.github.io/) is my current focus: a repo-native workflow for goal-directed, specification-governed development with Claude Code. It keeps goals, milestones, specs, ADRs, verification, and progress versioned and reviewable in Git.
+
+Current projects:
+
+- [**Claude OKF repo kit**](https://github.com/lilabrooks/claude-okf-repo-kit): repo-native goals, milestones, specs, ADRs, verification, and progress for Claude Code workflows.
+- [**lila-agent-skills**](https://github.com/lilabrooks/lila-agent-skills): reusable Agent Skills for Codex and Claude Code, focused on Git publishing, PR merge checks, branch cleanup, repo QA, and agent-compatible repo setup.
 
 Dogfood repos:
 
