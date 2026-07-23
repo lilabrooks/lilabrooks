@@ -42,7 +42,7 @@ projects:
       - shared styling for my GitHub Pages sites
 ```
 
-I'm interested in tools that make software easier to reason about: agents with specs, AI workflows that make intent explicit, and repositories that preserve the decisions behind the code. Right now, that work shows up in [Claude OKF repo kit](https://github.com/lilabrooks/claude-okf-repo-kit) and [lila-agent-skills](https://github.com/lilabrooks/lila-agent-skills).
+I'm interested in tools that make software easier to reason about: agents with specs, AI workflows that make intent explicit, and repositories that preserve the decisions behind the code. Right now, that work shows up in [Claude OKF repo kit](https://github.com/lilabrooks/claude-okf-repo-kit) and [lila-agent-skills](https://github.com/lilabrooks/lila-agent-skills). I also built and maintain [Compact Theme](https://github.com/lilabrooks/compact-theme), the framework-free HTML, CSS, and JavaScript theme I use across my GitHub Pages sites.
 
 ---
 
