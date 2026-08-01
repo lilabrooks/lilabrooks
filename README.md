@@ -4,11 +4,10 @@
 
 **AI-native development · platform engineering · cloud architecture**
 
-[![Current work](https://img.shields.io/badge/current_work-Claude_OKF_repo_kit-2563EB?style=flat-square)](https://lilabrooks.github.io/)
+[![Current work](https://img.shields.io/badge/current_work-CliSpecForge-2563EB?style=flat-square)](https://github.com/lilabrooks/clispecforge)
 [![Agent Skills](https://img.shields.io/badge/Agent_Skills-lila_agent_skills-0F766E?style=flat-square)](https://github.com/lilabrooks/lila-agent-skills)
-[![Claude Code](https://img.shields.io/badge/Claude_Code-workflows-CC785C?style=flat-square&logo=anthropic&logoColor=white)](https://claude.com/product/claude-code)
+[![AWS architecture](https://img.shields.io/badge/AWS-public_change_alerting-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)](https://github.com/lilabrooks/aws-public-change-feed)
 [![Codex](https://img.shields.io/badge/Codex-agentic_engineering-111827?style=flat-square&logo=openai&logoColor=white)](https://openai.com/codex)
-[![Dogfooding](https://img.shields.io/badge/dogfooding-spec_driven_repos-64748B?style=flat-square)](https://lilabrooks.github.io/dogfood/)
 
 </div>
 
@@ -16,52 +15,36 @@
 
 ## About
 
-```yaml
-interests:
-  - AI-native developer workflows
-  - platform engineering
-  - cloud architecture
-  - repository quality and verification
+I build small developer tools and reference architectures around explicit
+contracts, reviewable decisions, and careful automation. My current work sits
+where AI-assisted development meets platform engineering: provider boundaries,
+safe Git and file workflows, repository QA, and cloud-system design.
 
-projects:
-  - name: Claude OKF repo kit
-    repo: https://github.com/lilabrooks/claude-okf-repo-kit
-    work:
-      - repo-native goals, milestones, specs, and ADRs
-      - Claude Code workflows that keep decisions reviewable in Git
-      - dogfood repos that test the kit against real projects
-  - name: lila-agent-skills
-    repo: https://github.com/lilabrooks/lila-agent-skills
-    work:
-      - reusable Agent Skills for Codex and Claude Code
-      - Git publishing, PR checks, branch cleanup, and repo QA
-  - name: Compact Theme
-    repo: https://github.com/lilabrooks/compact-theme
-    work:
-      - framework-free HTML, CSS, and JavaScript theme
-      - shared styling for my GitHub Pages sites
-```
+## Selected work
 
-I'm interested in tools that make software easier to reason about: agents with specs, AI workflows that make intent explicit, and repositories that preserve the decisions behind the code. Right now, that work shows up in [Claude OKF repo kit](https://github.com/lilabrooks/claude-okf-repo-kit) and [lila-agent-skills](https://github.com/lilabrooks/lila-agent-skills). I also built and maintain [Compact Theme](https://github.com/lilabrooks/compact-theme), the framework-free HTML, CSS, and JavaScript theme I use across my GitHub Pages sites.
+| Project | What it demonstrates |
+| --- | --- |
+| [**AWS Public Change Alerting**](https://github.com/lilabrooks/aws-public-change-feed) | An explainable AWS reference architecture with numbered specifications, ADRs, JSON Schema contracts, and deterministic validation. |
+| [**CliSpecForge**](https://github.com/lilabrooks/clispecforge) | A compact Python reference implementation for turning Markdown CLI specs into reviewable file sets through one model request and guarded writes. |
+| [**Personal Agent Skills**](https://github.com/lilabrooks/lila-agent-skills) | Reusable Codex and Claude Code workflows for repository verification, Git publishing, PR checks, branch cleanup, and README work. |
+| [**Compact Theme**](https://github.com/lilabrooks/compact-theme) | A framework-free HTML, CSS, and JavaScript theme used across my GitHub Pages sites. |
 
----
+## Current focus
 
-## Current work
+- Tight, inspectable Python tools with zero-dependency cores and optional
+  provider adapters.
+- Agent workflows that preserve user authority around Git, files, reviews, and
+  external systems.
+- Architecture artifacts that can be validated before a runtime exists.
+- Honest evidence: tests and fixtures prove their measured path, and docs name
+  the remaining gaps.
 
-My current work centers on [**Claude OKF repo kit**](https://lilabrooks.github.io/): a repo-native workflow for goal-directed, specification-governed development with Claude Code. It keeps goals, milestones, specs, ADRs, verification, and progress versioned and reviewable in Git.
+## Earlier experiments
 
-Active projects:
-
-- [**Claude OKF repo kit**](https://github.com/lilabrooks/claude-okf-repo-kit): repo-native goals, milestones, specs, ADRs, verification, and progress for Claude Code workflows.
-- [**lila-agent-skills**](https://github.com/lilabrooks/lila-agent-skills): reusable Agent Skills for Codex and Claude Code, focused on Git publishing, PR merge checks, branch cleanup, repo QA, and agent-compatible repo setup.
-
-Dogfood repos:
-
-- [spec-agent-cli](https://github.com/lilabrooks/spec-agent-cli)
-- [repo-pulse](https://github.com/lilabrooks/repo-pulse)
-- [skywatch](https://github.com/lilabrooks/skywatch)
-- [aws-public-change-feed](https://github.com/lilabrooks/aws-public-change-feed)
-- More coming as the kit gets tested against different project types.
+[Claude OKF repo kit](https://github.com/lilabrooks/claude-okf-repo-kit) is
+archived. Its useful repository-governance ideas now inform the smaller tools
+and skills above. [spec-drift](https://github.com/lilabrooks/spec-drift) is also
+being retired after its experiment concluded.
 
 ---
 
