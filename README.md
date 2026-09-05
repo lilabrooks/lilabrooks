@@ -5,6 +5,7 @@
 **Engineering leadership · AWS infrastructure · versioned contracts, tests, and CI**
 
 [![AWS architecture](https://img.shields.io/badge/AWS-public_change_alerting-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)](https://lilabrooks.github.io/aws-public-change-feed/#mvp-demo)
+[![Cloud playground](https://img.shields.io/badge/Cloud_playground-my--local--platform-326CE5?style=flat-square&logo=kubernetes&logoColor=white)](https://github.com/lilabrooks/my-local-platform)
 [![Agent Skills](https://img.shields.io/badge/Agent_Skills-lila_agent_skills-0F766E?style=flat-square)](https://github.com/lilabrooks/lila-agent-skills)
 [![CliSpecForge](https://img.shields.io/badge/CliSpecForge-spec_to_CLI-2563EB?style=flat-square)](https://github.com/lilabrooks/clispecforge)
 
@@ -36,6 +37,7 @@ phrases, mapped to Slack routes, stored in DynamoDB, and delivered through SQS.
 
 | Project | What it demonstrates |
 | --- | --- |
+| [**my-local-platform**](https://github.com/lilabrooks/my-local-platform) | A local-first playground for distributed cloud apps: Kafka, RabbitMQ, Postgres, Kubernetes, GitOps, and OpenTelemetry, plus an explicit short-lived path to real AWS. |
 | [**Personal Agent Skills**](https://github.com/lilabrooks/lila-agent-skills) | Reusable Codex and Claude Code workflows for repository verification, Git publishing, PR checks, branch cleanup, and README work. |
 | [**CliSpecForge**](https://github.com/lilabrooks/clispecforge) | A compact Python reference implementation that turns a Markdown CLI spec into files that can be inspected before guarded writes. |
 | [**Compact Theme**](https://github.com/lilabrooks/compact-theme) | A framework-free HTML, CSS, and JavaScript theme used across my GitHub Pages sites. |
