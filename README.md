@@ -56,11 +56,22 @@ models and agent-directed tool use. Scout uses Qwen3 to choose investigation
 steps, while a separate vision model ranks visual breed matches and records
 evidence for the assessment.
 
-[![Scout uses text-only Qwen3 to choose actions and a separate vision model to read photos. Tool results stay in the local case and feed assessment rules; model scores are uncalibrated.](assets/breedframe.svg)](https://github.com/lilabrooks/breedframe#architecture)
+[![BreedFrame's photo workspace with a beagle photo and Scout running the vision model. The activity panel shows the choose-action, run-tool, and return-evidence steps.](https://raw.githubusercontent.com/lilabrooks/breedframe/main/docs/screenshots/scout-working.png)](https://github.com/lilabrooks/breedframe/blob/main/docs/screenshots/scout-working.png)
+
+*Scout running a local vision model during a real demo investigation.*
+
+[Screenshot and photo credits](https://github.com/lilabrooks/breedframe/blob/main/docs/screenshots/README.md#photo-attribution-and-license) · Beagle photo by [sannse](https://commons.wikimedia.org/wiki/File:Beagle_600.jpg) · [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
 
 *Completed prototype; model experiments closed. Findings document the reporting limits.*
 
 [**Explore the architecture**](https://github.com/lilabrooks/breedframe#architecture) · [Findings and limits](https://github.com/lilabrooks/breedframe/blob/main/docs/findings.md) · [Repository](https://github.com/lilabrooks/breedframe)
+
+<details>
+<summary>How it works</summary>
+
+[![Scout uses text-only Qwen3 to choose actions and a separate vision model to read photos. Tool results stay in the local case and feed assessment rules; model scores are uncalibrated.](assets/breedframe.svg)](https://github.com/lilabrooks/breedframe#architecture)
+
+</details>
 
 ## Other work
 
