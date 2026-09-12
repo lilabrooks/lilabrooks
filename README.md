@@ -66,8 +66,10 @@ evidence for the assessment.
 
 [**Explore the architecture**](https://github.com/lilabrooks/breedframe#architecture) · [Findings and limits](https://github.com/lilabrooks/breedframe/blob/main/docs/findings.md) · [Repository](https://github.com/lilabrooks/breedframe)
 
+<h3 id="how-it-works"><a href="https://github.com/lilabrooks/breedframe/blob/main/docs/diagrams/breedframe-architecture.svg">How it works · View architecture diagram ↗</a></h3>
+
 <details>
-<summary><h3 id="how-it-works">How it works · View architecture diagram</h3></summary>
+<summary><strong>Show diagram on this page</strong></summary>
 
 [![BreedFrame runtime architecture: browser and FastAPI, Scout, Ollama with text-only Qwen3, a separate vision worker, local tools, evidence, and case storage.](https://raw.githubusercontent.com/lilabrooks/breedframe/main/docs/diagrams/breedframe-architecture.svg)](https://github.com/lilabrooks/breedframe/blob/main/docs/diagrams/breedframe-architecture.svg)
 
