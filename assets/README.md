@@ -1,4 +1,4 @@
-# Profile diagrams
+# Profile media
 
 These SVGs are simplified profile illustrations, edited directly as vector
 source. They use the same type, spacing, and light background so their labels
@@ -30,3 +30,17 @@ and links to each project's detailed documentation.
 
 Source documentation checked on 2026-09-12. Keep these illustrations and the
 profile descriptions consistent when a project's architecture or status changes.
+
+## AWS walkthrough
+
+The profile player uses a [GitHub video attachment](https://github.com/user-attachments/assets/53e15d89-b7b0-4a27-9309-61e485f4c0eb)
+uploaded from the AWS repository's [v4 web rendition](https://github.com/lilabrooks/aws-public-change-feed/blob/main/site/media/walkthrough-v4/README.md)
+on 2026-09-12. The 720p file is unchanged; its SHA-256 matches the repository's
+[published manifest](https://github.com/lilabrooks/aws-public-change-feed/blob/main/site/media/walkthrough-v4/SHA256SUMS):
+
+```text
+6afca51c306c4fac544b7848504048e83ede4b08c492fb181ecba12db5635194
+```
+
+When the video changes, upload the new rendition and replace the attachment URL
+in the profile README. The walkthrough page owns the captions and downloads.
