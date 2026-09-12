@@ -10,10 +10,9 @@
 
 ## About
 
-I lead engineering teams and build cloud and developer-platform systems. My
-public repositories use versioned contracts, ADRs, regression tests, and CI
-checks so design choices and automated changes can be inspected before
-deployment.
+I lead engineering teams and build cloud platforms, distributed services, and
+developer tools. My public projects span AWS infrastructure, reusable agent
+workflows, and experiments with local AI and vision models.
 
 ## Featured projects
 
