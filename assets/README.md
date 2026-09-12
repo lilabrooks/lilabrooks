@@ -12,7 +12,7 @@ and links to each project's detailed documentation.
   status follow the [project README](https://github.com/lilabrooks/my-local-platform).
   Future services reflect the owner's stated direction on 2026-09-12. The arrows
   indicate use of shared capabilities, not an event-delivery path.
-- [Personal Agent Skills](personal-agent-skills.svg) maps the ten packages in the
+- [Personal Agent Skills](personal-agent-skills-map.svg) maps the ten packages in the
   [skill inventory](https://github.com/lilabrooks/lila-agent-skills#skill-inventory),
   their documented package structure, compatible hosts, and repository checks.
   The three groups organize the collection by purpose; they are not dependencies
