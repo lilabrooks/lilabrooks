@@ -5,8 +5,10 @@ source. They use the same type, spacing, and light background so their labels
 remain visible in either GitHub theme. The profile supplies text descriptions
 and links to each project's detailed documentation.
 
-- [my-local-platform](my-local-platform.svg) shows the shared platform, Relay as
-  its first service, and future services as planned. Runtime components and AWS
+- [my-local-platform](my-local-platform.svg) is the earlier simplified profile
+  diagram. The profile now embeds the system diagram directly from the project's
+  README. This retained illustration shows the shared platform, Relay as its
+  first service, and future services as planned. Runtime components and AWS
   status follow the [project README](https://github.com/lilabrooks/my-local-platform).
   Future services reflect the owner's stated direction on 2026-09-12. The arrows
   indicate use of shared capabilities, not an event-delivery path.

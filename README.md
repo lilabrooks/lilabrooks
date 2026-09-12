@@ -32,7 +32,9 @@ Docker Compose, Kubernetes, messaging, databases, and observability. Relay, a
 webhook delivery service, is its first application, with more services planned.
 A separate Terraform workflow supports brief AWS validation runs.
 
-[![Relay is the first service on a shared local platform for deployment, messaging, databases and observability. Future services are planned; AWS validation is a separate opt-in path.](assets/my-local-platform.svg)](https://github.com/lilabrooks/my-local-platform#what-runs-here)
+[![Local platform system diagram showing Compose services, minikube GitOps workloads, ArgoCD, KEDA, and observability stacks.](https://raw.githubusercontent.com/lilabrooks/my-local-platform/main/docs/diagrams/local-platform.svg)](https://github.com/lilabrooks/my-local-platform/blob/main/docs/diagrams/local-platform.svg)
+
+[**View the full-size system diagram ↗**](https://github.com/lilabrooks/my-local-platform/blob/main/docs/diagrams/local-platform.svg)
 
 *Local development comes first. The live EKS, RDS, and MSK relay proof is pending.*
 
