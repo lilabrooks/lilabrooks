@@ -21,7 +21,7 @@ workflows, and experiments with local AI and vision models.
 Public AWS announcements are matched against configured services and risk
 phrases, mapped to Slack routes, stored in DynamoDB, and delivered through SQS.
 
-[![Opening frame from the AWS Public Change Alerting dev MVP walkthrough.](https://raw.githubusercontent.com/lilabrooks/aws-public-change-feed/main/site/media/mvp-evidence-v2/aws-public-change-alerting-mvp-evidence-v2-poster.png)](https://lilabrooks.github.io/aws-public-change-feed/#mvp-demo)
+[![AWS Public Change Alerting walkthrough: Architecture, delivery, and operations. Public feeds, deterministic matching, and Slack outcomes recorded in DynamoDB.](https://raw.githubusercontent.com/lilabrooks/aws-public-change-feed/main/site/media/walkthrough-v4/poster.png)](https://lilabrooks.github.io/aws-public-change-feed/#mvp-demo)
 
 [**▶ Watch the walkthrough**](https://lilabrooks.github.io/aws-public-change-feed/#mvp-demo) · [Architecture](https://lilabrooks.github.io/aws-public-change-feed/#flow) · [Repository](https://github.com/lilabrooks/aws-public-change-feed)
 
