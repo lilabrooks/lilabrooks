@@ -68,13 +68,17 @@ evidence for the assessment.
 - [**CliSpecForge**](https://github.com/lilabrooks/clispecforge): a compact Python reference implementation that turns a Markdown CLI spec into files that can be inspected before guarded writes.
 - [**Compact Theme**](https://github.com/lilabrooks/compact-theme): a framework-free HTML, CSS, and JavaScript theme used across my GitHub Pages sites.
 
-## Current focus
+## Engineering focus
 
-- AWS and platform systems with named service boundaries, owned state, alarms,
-  recovery procedures, and deployment checks.
-- Agent workflows that require exact Git targets, preserve local changes, and
-  stop before external mutations without authority.
-- Specs, schemas, fixtures, and tests updated together when behavior changes.
+- **Platforms and distributed services:** building a shared local platform for
+  multiple applications, with clear service boundaries, observability, and
+  controlled AWS validation.
+- **Agent-assisted development:** creating reusable workflows for planning,
+  architecture decisions, repository checks, and publishing, with explicit
+  permissions and changes checked against specifications and tests.
+- **Local AI and vision models:** exploring model behavior through small
+  applications, visible tool execution, and measured results that document
+  usefulness and limitations.
 
 <details>
 <summary>Earlier experiments</summary>
