@@ -13,7 +13,9 @@ and links to each project's detailed documentation.
 - [Personal Agent Skills](personal-agent-skills.svg) shows one representative
   [publishing workflow](https://github.com/lilabrooks/lila-agent-skills/tree/main/skills/github-publish-changes).
   The packages are independently usable; this is not a required sequence of skills.
-- [BreedFrame](breedframe.svg) summarizes the default runtime from its
+- [BreedFrame](breedframe.svg) is the earlier simplified profile diagram. The
+  profile now embeds the full runtime diagram directly from BreedFrame's README.
+  This retained illustration summarizes the default runtime from its
   [architecture documentation](https://github.com/lilabrooks/breedframe/tree/main/docs/diagrams).
   Qwen3 receives text evidence, while the ViT reads images. Process boundaries,
   return paths, and optional direct classification are omitted from this overview.

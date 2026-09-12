@@ -66,10 +66,14 @@ evidence for the assessment.
 
 [**Explore the architecture**](https://github.com/lilabrooks/breedframe#architecture) · [Findings and limits](https://github.com/lilabrooks/breedframe/blob/main/docs/findings.md) · [Repository](https://github.com/lilabrooks/breedframe)
 
-<details>
-<summary>How it works</summary>
+#### How it works
 
-[![Scout uses text-only Qwen3 to choose actions and a separate vision model to read photos. Tool results stay in the local case and feed assessment rules; model scores are uncalibrated.](assets/breedframe.svg)](https://github.com/lilabrooks/breedframe#architecture)
+<details>
+<summary><strong>View BreedFrame's architecture diagram</strong></summary>
+
+[![BreedFrame runtime architecture: browser and FastAPI, Scout, Ollama with text-only Qwen3, a separate vision worker, local tools, evidence, and case storage.](https://raw.githubusercontent.com/lilabrooks/breedframe/main/docs/diagrams/breedframe-architecture.svg)](https://github.com/lilabrooks/breedframe/blob/main/docs/diagrams/breedframe-architecture.svg)
+
+[**Open the full-size diagram**](https://github.com/lilabrooks/breedframe/blob/main/docs/diagrams/breedframe-architecture.svg) · [AI and ML inference detail](https://github.com/lilabrooks/breedframe/blob/main/docs/diagrams/breedframe-inference.svg)
 
 </details>
 
