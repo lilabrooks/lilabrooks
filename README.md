@@ -2,7 +2,7 @@
 
 # Lila Brooks
 
-**Engineering leadership · AWS infrastructure · versioned contracts, tests, and CI**
+**Engineering leadership · Cloud & platform engineering · Applied AI**
 
 [AWS Public Change Alerting](#aws-public-change-alerting) · [my-local-platform](#my-local-platform) · [Personal Agent Skills](#personal-agent-skills) · [BreedFrame](#breedframe)
 
