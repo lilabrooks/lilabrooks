@@ -47,9 +47,11 @@ architecture decisions, repository checks, and Git publishing. Each skill
 packages instructions and supporting tools with explicit verification and
 permission boundaries.
 
-[![Example publishing workflow: inspect changes, verify intended files while preserving unrelated work, publish within authorization, and confirm the remote result. Skills are independently usable.](assets/personal-agent-skills.svg)](https://lilabrooks.github.io/lila-agent-skills/)
+[![Personal Agent Skills collection: ten independent workflows grouped into planning and research, building and verification, and Git workflows. Each package contains SKILL.md and optional supporting files for use by Codex or Claude Code. Repository checks cover structure, behavioral contracts, tests, types, and lint.](assets/personal-agent-skills.svg)](assets/personal-agent-skills.svg)
 
-[**Browse the skill catalog**](https://lilabrooks.github.io/lila-agent-skills/) · [Example workflow](https://github.com/lilabrooks/lila-agent-skills/tree/main/skills/github-publish-changes) · [Repository](https://github.com/lilabrooks/lila-agent-skills)
+[**View the full-size skills map ↗**](assets/personal-agent-skills.svg)
+
+[**Browse the skill catalog**](https://lilabrooks.github.io/lila-agent-skills/) · [Skill inventory](https://github.com/lilabrooks/lila-agent-skills#skill-inventory) · [Repository](https://github.com/lilabrooks/lila-agent-skills)
 
 ### [BreedFrame](https://github.com/lilabrooks/breedframe)
 

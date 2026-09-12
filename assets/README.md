@@ -12,9 +12,13 @@ and links to each project's detailed documentation.
   status follow the [project README](https://github.com/lilabrooks/my-local-platform).
   Future services reflect the owner's stated direction on 2026-09-12. The arrows
   indicate use of shared capabilities, not an event-delivery path.
-- [Personal Agent Skills](personal-agent-skills.svg) shows one representative
-  [publishing workflow](https://github.com/lilabrooks/lila-agent-skills/tree/main/skills/github-publish-changes).
-  The packages are independently usable; this is not a required sequence of skills.
+- [Personal Agent Skills](personal-agent-skills.svg) maps the ten packages in the
+  [skill inventory](https://github.com/lilabrooks/lila-agent-skills#skill-inventory),
+  their documented package structure, compatible hosts, and repository checks.
+  The three groups organize the collection by purpose; they are not dependencies
+  or a required sequence. Package support files are optional, and the host supplies
+  its tools and permissions. The map describes documented usage, not a measured
+  guarantee about how a host executes every instruction.
 - [BreedFrame](breedframe.svg) is the earlier simplified profile diagram. The
   profile now embeds the full runtime diagram directly from BreedFrame's README.
   This retained illustration summarizes the default runtime from its

@@ -1,5 +1,95 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="515" viewBox="0 0 800 515" role="img" aria-labelledby="title desc">
-<title id="title">Personal Agent Skills workflow example</title><desc id="desc">An example Git publishing workflow: inspect intended changes, verify while preserving unrelated work, publish within authorization, and confirm the remote result. Skills are independently usable, not a mandatory pipeline.</desc>
-<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#52677e"/></marker><marker id="start" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#52677e"/></marker></defs>
-<rect width="800" height="515" rx="16" fill="#f8fafc"/>
-<g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif"><text x="32" y="44" font-size="29" fill="#172b42" font-weight="650" text-anchor="start">One example: publish a reviewed change</text><text x="32" y="80" font-size="23" fill="#40546b" font-weight="400" text-anchor="start">Independent skills for Codex and Claude Code</text><rect x="32" y="113" width="352" height="111" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="2"/><text x="52" y="149" font-size="25" fill="#087f8c" font-weight="650" text-anchor="start">1  Inspect</text><text x="52" y="181" font-size="22" fill="#40546b" font-weight="400" text-anchor="start">Read the diff and Git state</text><text x="52" y="210" font-size="22" fill="#40546b" font-weight="400" text-anchor="start">Identify the intended changes</text><rect x="416" y="113" width="352" height="111" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="2"/><text x="436" y="149" font-size="25" fill="#087f8c" font-weight="650" text-anchor="start">2  Verify</text><text x="436" y="181" font-size="22" fill="#40546b" font-weight="400" text-anchor="start">Select files and run checks</text><text x="436" y="210" font-size="22" fill="#40546b" font-weight="400" text-anchor="start">Preserve unrelated work</text><path d="M384 167 L415 167" fill="none" stroke="#087f8c" stroke-width="2.5" marker-end="url(#arrow)"/><path d="M592 224 L592 278" fill="none" stroke="#087f8c" stroke-width="2.5" marker-end="url(#arrow)"/><rect x="416" y="280" width="352" height="111" rx="12" fill="#ffffff" stroke="#7554b8" stroke-width="2"/><text x="436" y="316" font-size="25" fill="#7554b8" font-weight="650" text-anchor="start">3  Publish</text><text x="436" y="348" font-size="22" fill="#40546b" font-weight="400" text-anchor="start">Check scope and permission</text><text x="436" y="377" font-size="22" fill="#40546b" font-weight="400" text-anchor="start">Commit and push as requested</text><rect x="32" y="280" width="352" height="111" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="2"/><text x="52" y="316" font-size="25" fill="#087f8c" font-weight="650" text-anchor="start">4  Confirm</text><text x="52" y="348" font-size="22" fill="#40546b" font-weight="400" text-anchor="start">Compare the remote result</text><text x="52" y="377" font-size="22" fill="#40546b" font-weight="400" text-anchor="start">Report what was published</text><path d="M416 335 L385 335" fill="none" stroke="#087f8c" stroke-width="2.5" marker-end="url(#arrow)"/><text x="32" y="446" font-size="23" fill="#40546b" font-weight="400" text-anchor="start">Each package carries its own workflow and boundaries.</text><text x="32" y="482" font-size="23" fill="#40546b" font-weight="400" text-anchor="start">Also: goals · architecture decisions · repository QA</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1010" viewBox="0 0 1200 1010" role="img" aria-labelledby="title desc">
+<title id="title">Personal Agent Skills: collection and package structure</title>
+<desc id="desc">Ten independent skills grouped by purpose: planning and research, building and verification, and Git workflows. A required SKILL.md carries each workflow, with optional references, scripts, assets, and Codex metadata. Selected packages are used by Codex or Claude Code with their own tools and permissions. Repository checks cover package structure, behavioral contracts, tests, types, and lint. Groups describe purposes, not a mandatory execution order.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#7890a9"/></marker></defs>
+<rect width="1200" height="1010" fill="#ffffff"/>
+<g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif">
+<rect x="28" y="28" width="46" height="40" rx="8" fill="#087f8c" stroke="#087f8c" stroke-width="1.5"/>
+<text x="38" y="56" font-size="22" fill="#ffffff" font-weight="750">AS</text>
+<text x="90" y="58" font-size="34" fill="#182c43" font-weight="700">Personal Agent Skills</text>
+<text x="90" y="89" font-size="21" fill="#53637a" font-weight="400">Reusable workflows for planning, repository work, and Git</text>
+<path d="M28 110H1172" fill="none" stroke="#d9e1ea" stroke-width="2"/>
+<text x="28" y="148" font-size="18" fill="#53637a" font-weight="700">01  CHOOSE A WORKFLOW</text>
+<text x="764" y="148" font-size="18" fill="#53637a" font-weight="400">Independent packages · choose by task</text>
+<rect x="28" y="170" width="368" height="386" rx="12" fill="#edf3ff" stroke="#345fa5" stroke-width="1.5"/>
+<g transform="translate(46 189)" fill="none" stroke="#345fa5" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M5 5h20v25H5z M10 12h10 M10 18h10 M10 24h6"/>
+</g>
+<text x="92" y="217" font-size="25" fill="#345fa5" font-weight="700">Planning &amp; research</text>
+<path d="M46 238H378" fill="none" stroke="#345fa5" stroke-width="2"/>
+<text x="46" y="271" font-size="18" fill="#24344b" font-weight="600">Define the project goal</text>
+<text x="46" y="293" font-size="15" fill="#53637a" font-weight="400">project-goal-interview</text>
+<text x="46" y="330" font-size="18" fill="#24344b" font-weight="600">Record an architecture decision</text>
+<text x="46" y="352" font-size="15" fill="#53637a" font-weight="400">architecture-decision-interview</text>
+<text x="46" y="389" font-size="18" fill="#24344b" font-weight="600">Choose a public-web research tool</text>
+<text x="46" y="411" font-size="15" fill="#53637a" font-weight="400">agent-browser-research-triage</text>
+<path d="M46 504H378" fill="none" stroke="#c7d1df" stroke-width="2"/>
+<text x="46" y="533" font-size="17" fill="#345fa5" font-weight="600">Goals, ADRs, and a research approach</text>
+<rect x="416" y="170" width="368" height="386" rx="12" fill="#edfaf8" stroke="#087f8c" stroke-width="1.5"/>
+<g transform="translate(434 189)" fill="none" stroke="#087f8c" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M10 7L2 16l8 9 M23 7l8 9-8 9 M19 4l-6 24"/>
+</g>
+<text x="480" y="217" font-size="25" fill="#087f8c" font-weight="700">Build &amp; verify</text>
+<path d="M434 238H766" fill="none" stroke="#087f8c" stroke-width="2"/>
+<text x="434" y="271" font-size="18" fill="#24344b" font-weight="600">Generate a CLI from a spec</text>
+<text x="434" y="293" font-size="15" fill="#53637a" font-weight="400">clispecforge-scaffold</text>
+<text x="434" y="330" font-size="18" fill="#24344b" font-weight="600">Prepare repository instructions</text>
+<text x="434" y="352" font-size="15" fill="#53637a" font-weight="400">prepare-agent-compatible-repository</text>
+<text x="434" y="389" font-size="18" fill="#24344b" font-weight="600">Audit repository readiness</text>
+<text x="434" y="411" font-size="15" fill="#53637a" font-weight="400">verify-repository</text>
+<text x="434" y="448" font-size="18" fill="#24344b" font-weight="600">Write and review README files</text>
+<text x="434" y="470" font-size="15" fill="#53637a" font-weight="400">write-repository-readme</text>
+<path d="M434 504H766" fill="none" stroke="#c7d1df" stroke-width="2"/>
+<text x="434" y="533" font-size="17" fill="#087f8c" font-weight="600">Scaffolds, guidance, and audit findings</text>
+<rect x="804" y="170" width="368" height="386" rx="12" fill="#f5f0ff" stroke="#7656aa" stroke-width="1.5"/>
+<g transform="translate(822 189)" fill="none" stroke="#7656aa" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="7" cy="6" r="3"/><circle cx="7" cy="28" r="3"/><circle cx="25" cy="6" r="3"/><path d="M7 9v16 M25 9v3c0 7-18 3-18 10"/>
+</g>
+<text x="868" y="217" font-size="25" fill="#7656aa" font-weight="700">Git workflows</text>
+<path d="M822 238H1154" fill="none" stroke="#7656aa" stroke-width="2"/>
+<text x="822" y="271" font-size="18" fill="#24344b" font-weight="600">Commit and push intended changes</text>
+<text x="822" y="293" font-size="15" fill="#53637a" font-weight="400">github-publish-changes</text>
+<text x="822" y="330" font-size="18" fill="#24344b" font-weight="600">Inspect and merge a pull request</text>
+<text x="822" y="352" font-size="15" fill="#53637a" font-weight="400">github-merge-pull-request</text>
+<text x="822" y="389" font-size="18" fill="#24344b" font-weight="600">Audit and clean Git branches</text>
+<text x="822" y="411" font-size="15" fill="#53637a" font-weight="400">clean-git-branches</text>
+<path d="M822 504H1154" fill="none" stroke="#c7d1df" stroke-width="2"/>
+<text x="822" y="533" font-size="17" fill="#7656aa" font-weight="600">Verified Git and pull-request changes</text>
+<text x="28" y="590" font-size="18" fill="#53637a" font-weight="700">02  ONE PACKAGE, USED BY YOUR AGENT</text>
+<rect x="28" y="610" width="560" height="228" rx="12" fill="#f8fafc" stroke="#b8c6d8" stroke-width="1.5"/>
+<g transform="translate(48 630)" fill="none" stroke="#345fa5" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M5 3h15l7 7v23H5z M20 3v8h7 M10 18h12 M10 24h9"/>
+</g>
+<text x="94" y="657" font-size="23" fill="#24344b" font-weight="650">skills / selected-skill /</text>
+<rect x="48" y="677" width="198" height="132" rx="8" fill="#ffffff" stroke="#adc1df" stroke-width="1.5"/>
+<text x="65" y="709" font-size="22" fill="#345fa5" font-weight="700">SKILL.md</text>
+<text x="65" y="739" font-size="18" fill="#24344b" font-weight="400">Required workflow</text>
+<text x="65" y="766" font-size="16" fill="#53637a" font-weight="400">Scope and instructions</text>
+<text x="65" y="790" font-size="16" fill="#53637a" font-weight="400">Verification steps</text>
+<text x="272" y="707" font-size="18" fill="#24344b" font-weight="600">Supporting files, when needed</text>
+<text x="272" y="737" font-size="17" fill="#53637a" font-weight="400">references/  ·  scripts/  ·  assets/</text>
+<text x="272" y="767" font-size="18" fill="#7656aa" font-weight="600">agents/openai.yaml</text>
+<text x="272" y="793" font-size="16" fill="#53637a" font-weight="400">Optional Codex interface metadata</text>
+<path d="M588 725H676" fill="none" stroke="#7890a9" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="606" y="701" font-size="17" fill="#53637a" font-weight="400">use</text>
+<rect x="684" y="610" width="488" height="228" rx="12" fill="#ffffff" stroke="#b8c6d8" stroke-width="1.5"/>
+<g transform="translate(704 629)" fill="none" stroke="#7656aa" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+<rect x="1" y="4" width="31" height="23" rx="3"/><path d="M7 11l4 4-4 4 M16 19h9 M11 32h11"/>
+</g>
+<text x="749" y="657" font-size="23" fill="#24344b" font-weight="650">Compatible hosts</text>
+<rect x="704" y="677" width="211" height="48" rx="8" fill="#edf3ff" stroke="#b4c7e5" stroke-width="1.5"/>
+<text x="766" y="708" font-size="22" fill="#345fa5" font-weight="700">Codex</text>
+<rect x="935" y="677" width="217" height="48" rx="8" fill="#f5f0ff" stroke="#cdbde3" stroke-width="1.5"/>
+<text x="971" y="708" font-size="22" fill="#7656aa" font-weight="700">Claude Code</text>
+<text x="704" y="759" font-size="18" fill="#24344b" font-weight="400">The host supplies tools and permissions.</text>
+<text x="704" y="788" font-size="17" fill="#53637a" font-weight="400">Each workflow keeps its own action boundaries.</text>
+<text x="704" y="814" font-size="17" fill="#53637a" font-weight="400">Some skills need a separate CLI.</text>
+<rect x="28" y="867" width="1144" height="109" rx="12" fill="#f0f6f9" stroke="#b8c6d8" stroke-width="1.5"/>
+<g transform="translate(50 885)" fill="none" stroke="#087f8c" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M3 17l8 8L29 6"/>
+</g>
+<text x="94" y="910" font-size="23" fill="#24344b" font-weight="650">Repository quality checks</text>
+<text x="94" y="943" font-size="20" fill="#40546b" font-weight="400">Package structure · behavioral contracts · tests · types and lint</text>
+<text x="831" y="911" font-size="17" fill="#53637a" font-weight="400">Check the versioned source</text>
+<text x="831" y="942" font-size="17" fill="#53637a" font-weight="400">Not a mandatory sequence of skills</text>
+</g></svg>
