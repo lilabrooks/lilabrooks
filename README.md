@@ -4,14 +4,9 @@
 
 **Engineering leadership · AWS infrastructure · versioned contracts, tests, and CI**
 
-[![AWS architecture](https://img.shields.io/badge/AWS-public_change_alerting-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)](https://lilabrooks.github.io/aws-public-change-feed/#mvp-demo)
-[![Cloud playground](https://img.shields.io/badge/Cloud_playground-my--local--platform-326CE5?style=flat-square&logo=kubernetes&logoColor=white)](https://github.com/lilabrooks/my-local-platform)
-[![Agent Skills](https://img.shields.io/badge/Agent_Skills-lila_agent_skills-0F766E?style=flat-square)](https://github.com/lilabrooks/lila-agent-skills)
-[![CliSpecForge](https://img.shields.io/badge/CliSpecForge-spec_to_CLI-2563EB?style=flat-square)](https://github.com/lilabrooks/clispecforge)
+[AWS Public Change Alerting](#aws-public-change-alerting) · [my-local-platform](#my-local-platform) · [Personal Agent Skills](#personal-agent-skills) · [BreedFrame](#breedframe)
 
 </div>
-
----
 
 ## About
 
@@ -20,7 +15,7 @@ public repositories use versioned contracts, ADRs, regression tests, and CI
 checks so design choices and automated changes can be inspected before
 deployment.
 
-## Featured project
+## Featured projects
 
 ### [AWS Public Change Alerting](https://github.com/lilabrooks/aws-public-change-feed)
 
@@ -29,18 +24,49 @@ phrases, mapped to Slack routes, stored in DynamoDB, and delivered through SQS.
 
 [![Opening frame from the AWS Public Change Alerting dev MVP walkthrough.](https://raw.githubusercontent.com/lilabrooks/aws-public-change-feed/main/site/media/mvp-evidence-v2/aws-public-change-alerting-mvp-evidence-v2-poster.png)](https://lilabrooks.github.io/aws-public-change-feed/#mvp-demo)
 
-**[▶ Watch the walkthrough](https://lilabrooks.github.io/aws-public-change-feed/#mvp-demo)**
+[**▶ Watch the walkthrough**](https://lilabrooks.github.io/aws-public-change-feed/#mvp-demo) · [Architecture](https://lilabrooks.github.io/aws-public-change-feed/#flow) · [Repository](https://github.com/lilabrooks/aws-public-change-feed)
 
-[Architecture](https://lilabrooks.github.io/aws-public-change-feed/#flow) · [PDF deck](https://github.com/lilabrooks/aws-public-change-feed/blob/main/site/media/mvp-evidence-v2/aws-public-change-alerting-mvp-evidence-v2.pdf) · [PowerPoint](https://github.com/lilabrooks/aws-public-change-feed/raw/main/site/media/mvp-evidence-v2/aws-public-change-alerting-mvp-evidence-v2.pptx) · [Transcript](https://github.com/lilabrooks/aws-public-change-feed/blob/main/docs/evidence/mvp-walkthrough.md) · [Repository](https://github.com/lilabrooks/aws-public-change-feed)
+### [my-local-platform](https://github.com/lilabrooks/my-local-platform)
 
-## Selected work
+A local development platform for building and testing distributed services with
+Docker Compose, Kubernetes, messaging, databases, and observability. Relay, a
+webhook delivery service, is its first application, with more services planned.
+A separate Terraform workflow supports brief AWS validation runs.
 
-| Project | What it demonstrates |
-| --- | --- |
-| [**my-local-platform**](https://github.com/lilabrooks/my-local-platform) | A local-first playground for distributed cloud apps: Kafka, RabbitMQ, Postgres, Kubernetes, GitOps, and OpenTelemetry, plus an explicit short-lived path to real AWS. |
-| [**Personal Agent Skills**](https://github.com/lilabrooks/lila-agent-skills) | Reusable Codex and Claude Code workflows for repository verification, Git publishing, PR checks, branch cleanup, and README work. |
-| [**CliSpecForge**](https://github.com/lilabrooks/clispecforge) | A compact Python reference implementation that turns a Markdown CLI spec into files that can be inspected before guarded writes. |
-| [**Compact Theme**](https://github.com/lilabrooks/compact-theme) | A framework-free HTML, CSS, and JavaScript theme used across my GitHub Pages sites. |
+[![Relay is the first service on a shared local platform for deployment, messaging, databases and observability. Future services are planned; AWS validation is a separate opt-in path.](assets/my-local-platform.svg)](https://github.com/lilabrooks/my-local-platform#what-runs-here)
+
+*Local development comes first. The live EKS, RDS, and MSK relay proof is pending.*
+
+[**Explore the platform**](https://github.com/lilabrooks/my-local-platform#what-runs-here) · [Relay service](https://github.com/lilabrooks/my-local-platform#relay) · [Repository](https://github.com/lilabrooks/my-local-platform)
+
+### [Personal Agent Skills](https://github.com/lilabrooks/lila-agent-skills)
+
+Reusable workflows for Codex and Claude Code, covering project planning,
+architecture decisions, repository checks, and Git publishing. Each skill
+packages instructions and supporting tools with explicit verification and
+permission boundaries.
+
+[![Example publishing workflow: inspect changes, verify intended files while preserving unrelated work, publish within authorization, and confirm the remote result. Skills are independently usable.](assets/personal-agent-skills.svg)](https://lilabrooks.github.io/lila-agent-skills/)
+
+[**Browse the skill catalog**](https://lilabrooks.github.io/lila-agent-skills/) · [Example workflow](https://github.com/lilabrooks/lila-agent-skills/tree/main/skills/github-publish-changes) · [Repository](https://github.com/lilabrooks/lila-agent-skills)
+
+### [BreedFrame](https://github.com/lilabrooks/breedframe)
+
+A local dog-photo investigation prototype experimenting with local vision
+models and agent-directed tool use. Scout uses Qwen3 to choose investigation
+steps, while a separate vision model ranks visual breed matches and records
+evidence for the assessment.
+
+[![Scout uses text-only Qwen3 to choose actions and a separate vision model to read photos. Tool results stay in the local case and feed assessment rules; model scores are uncalibrated.](assets/breedframe.svg)](https://github.com/lilabrooks/breedframe#architecture)
+
+*Completed prototype; model experiments closed. Findings document the reporting limits.*
+
+[**Explore the architecture**](https://github.com/lilabrooks/breedframe#architecture) · [Findings and limits](https://github.com/lilabrooks/breedframe/blob/main/docs/findings.md) · [Repository](https://github.com/lilabrooks/breedframe)
+
+## Other work
+
+- [**CliSpecForge**](https://github.com/lilabrooks/clispecforge): a compact Python reference implementation that turns a Markdown CLI spec into files that can be inspected before guarded writes.
+- [**Compact Theme**](https://github.com/lilabrooks/compact-theme): a framework-free HTML, CSS, and JavaScript theme used across my GitHub Pages sites.
 
 ## Current focus
 
@@ -50,13 +76,12 @@ phrases, mapped to Slack routes, stored in DynamoDB, and delivered through SQS.
   stop before external mutations without authority.
 - Specs, schemas, fixtures, and tests updated together when behavior changes.
 
-## Earlier experiments
+<details>
+<summary>Earlier experiments</summary>
 
 [Claude OKF repo kit](https://github.com/lilabrooks/claude-okf-repo-kit) is
 archived. Its useful repository-governance ideas now inform the smaller tools
 and skills above. [spec-drift](https://github.com/lilabrooks/spec-drift) is also
 being retired after its experiment concluded.
 
----
-
-`Engineering leadership` · `Platform engineering` · `AWS` · `Agent workflows` · `Specs & ADRs`
+</details>
